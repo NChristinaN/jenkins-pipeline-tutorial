@@ -1,12 +1,12 @@
 pipeline {
     agent any 
     stages {
-        stage('Static Analysis') {
+        stage('Analysis 1(Change1)') {
             steps {
-                echo 'Run the static analysis to the code' 
+                echo 'Run the static analysis to the code ------ This was approved by Christina Noronha------(Change2)' 
             }
         }
-        stage('Compile') {
+        stage('Compilation(Change3)') {
             steps {
                 echo 'Compile the source code' 
             }
